@@ -14,6 +14,40 @@
            flex-wrap: wrap;
            justify-content:space-evenly;
         }
+    }
+        .temple-card{
+            width: 350px;
+            height: 400px;
+            border: 1.5px solid  #3366ff;
+            box-shadow:0 0 0 #000 ;
+            border-radius: 10px;
+            padding-bottom: 10px;
+            margin: 10px 20px;
+        }
+        .temple-img{
+            width:100%;
+            display: block;
+            margin:  auto;
+            border-radius: 10px 10px 0 0;
+            height:200px ;
+            object-fit: cover;
+        }
+        .temple-title{
+            text-align: center;
+        }
+        .temple-des{
+            text-align: justify;
+            padding: 0 10px;
+        }
+        .temple-btn{
+            display: block;
+            margin:0 auto ;
+            font-size:20px ;
+            padding: 5px 20px;
+            border-radius: 50px;
+            border: none;
+            background-color:  #99b3ff;
+        }
      .navbar{
             background-color: #4d94ff;
             color: #fff;
@@ -77,5 +111,13 @@
 
          <h1>Web Master</h1>
         <div class="container">
+            <div class="temple-card">
+                <img src="img/ayodhya.jpg" class="temple-img" alt="indian-temple">
+                 <h1 class="temple-title"> Ayodhya Temple</h1>
+                  <p class="temple-des">
+                    Ayodhya was the capital of the ancient Kosala Kingdom and is
+                     home to many historical monuments and temples.</p>
+                     <button class="temple-btn">Know More</button>
+            </div>
 </body>
 </html>
